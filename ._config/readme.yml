@@ -1,0 +1,25 @@
+# Las variables son:
+# text titulo de la sección
+# color en hexadecimal del titulo siempre debe llevar valor "1f509e""
+# description descripción de la sección
+# img imagen del titulo
+title:
+  text: "titulo"
+  color: ""
+  description: "Instalación de Tema de Grub personalizado"
+  img: "title.svg"
+install:
+  text: "Instalación"
+  color: ""
+  description: "shell\n$ git clone https://github.com/foxfher/grub2Hat-ArchSES.git \n$ ./install.sh -i \n# cp -r "grub2Hat-ArchSES/*" "/boot/grub/themes/""
+  img: "install.svg"
+usage:
+  text: "Como usar"
+  color: "1f509e"
+  description: "shell\n$ install\nusage: install (-i) \nexample: install -i ejecuta grub-mkconfig  para configurar el tema\n\t install   Solo copia los archivos del tema"
+  img: "usage.png"
+screenshots:
+  text: "Vista previa"
+  color: ""
+  description: ""
+  img: "screenshot.png"
