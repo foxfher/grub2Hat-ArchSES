@@ -21,6 +21,7 @@ example: install -i ejecuta grub-mkconfig para configurar el tema
 ```
 ### ![screenshots](._config/screenshot.png) &nbsp;  ![](http://lingtalfi.com/services/pngtext?color=1f509e&size=18&text=Vista%20previa)
 ![icons_screenshot](._config/icons_screenshot.png)
+![boot_screenshot](._config/boot_screenshot.png)
 
 #### ![license](._config/license.png) &nbsp; ![](http://lingtalfi.com/services/pngtext?color=1f509e&size=18&text=Licencia)
 ![alt](https://img.shields.io/apm/l/vim-mode?label=license&logo=dark-blue&style=for-the-badge) 
