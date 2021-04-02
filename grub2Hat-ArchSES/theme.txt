@@ -57,5 +57,5 @@ terminal-border: "0"
   top = 99%
   height = 1
   fg_color = "#af1201"
-  bg_color = "#00000"  #"#BD93F9"
+  bg_color = "#000000"  #"#BD93F9"
 }
