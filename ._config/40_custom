@@ -4,11 +4,13 @@ exec tail -n +3 $0
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
 
-menuentry "Apagar" {
+menuentry "Apagar" --class shutdown {
+        echo "System shutting down..."
         halt
 }
 
-menuentry "Reiniciar" {
+menuentry "Reiniciar"   --class restart {
+        echo "System rebooting..."
         reboot
 }
  
