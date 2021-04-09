@@ -57,7 +57,7 @@ declare -A MESSAGES
 theme_name=$(echo ${PWD##*/})
 grub_dir=$(_dirGrub)
 grub_cfg_path="/boot/${grub_dir}/grub.cfg"
-theme_path="/boot/${grub_dir}/themes"
+theme_path= "/usr/share/grub/themes" #"/boot/${grub_dir}/themes"
 theme_pre="$(cat /etc/default/grub | grep 'GRUB_THEME=' | sed 's/GRUB_THEME="//g' | sed 's/"//g' | sed 's/#//g' | sed 's/\//\\\//g')"
 theme_new=$(echo -e "${theme_path}/${theme_name}/theme.txt" | sed 's/\//\\\//g')
 
